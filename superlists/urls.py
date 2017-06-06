@@ -1,10 +1,11 @@
 from django.conf.urls import patterns, include, url
-
+from lists import views
 # Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
+from django.contrib import admin
+admin.autodiscover()
 
 urlpatterns = patterns('',
+	url(r'^$', views.home_page, name='home'),
     # Examples:
     # url(r'^$', 'superlists.views.home', name='home'),
     # url(r'^superlists/', include('superlists.foo.urls')),
