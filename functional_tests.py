@@ -30,13 +30,17 @@ class newVisitorTest(unittest.TestCase):
 		# "1: Buy peacock feathers" as an item in a to-do list
 		inputbox.send_keys(Keys.ENTER)
 
+		# import time
+		# time.sleep(10)
 		table = self.browser.find_element_by_id('id_list_table')
 		rows = table.find_elements_by_tag_name('tr')
-		self.assertTrue(
-			any(row.text == '1: Buy peacock feathers' for row in rows)
-		)
+		self.assertIn('1: Buy peacock feathers', [row.text for row in rows])
 		# There is still a text box inviting her to add another item. She
 		# enters "Use peacock feathers to make a fly" (Edith is very methodical)
+		self.assertIn(
+			'2: Use peacock featers to make a fly',
+			[row.text for row in rows]
+		)
 		self.fail('Finish the test!')
 		# The page updates again, and now shows both items on her list
 
