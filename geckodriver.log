@@ -640,3 +640,76 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 [Child 6206] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
 [Child 6206] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+1496947861729	geckodriver	INFO	Listening on 127.0.0.1:56157
+1496947862948	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1496947866507	Marionette	INFO	Listening on port 56164
+1496947866685	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-08 13:51:07.517 plugin-container[6366:7978328] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 13:51:07.519 plugin-container[6366:7978328] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4f07, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 13:51:07.519 plugin-container[6366:7978328] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1496947874606	Marionette	INFO	New connections will no longer be accepted
+1496947874776	geckodriver	INFO	Listening on 127.0.0.1:56308
+1496947875987	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1496947880286	Marionette	INFO	Listening on port 56315
+1496947880431	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-08 13:51:21.270 plugin-container[6370:7978900] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 13:51:21.272 plugin-container[6370:7978900] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4f07, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 13:51:21.272 plugin-container[6370:7978900] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1496947889737	Marionette	INFO	New connections will no longer be accepted
+1496957516384	geckodriver	INFO	Listening on 127.0.0.1:56623
+1496957517626	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1496957521162	Marionette	INFO	Listening on port 56630
+1496957521382	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-08 16:32:02.240 plugin-container[6586:8000051] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 16:32:02.243 plugin-container[6586:8000051] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x5107, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 16:32:02.244 plugin-container[6586:8000051] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1496957529149	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1496962647627	geckodriver	INFO	Listening on 127.0.0.1:56929
+1496962647982	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1496962651746	Marionette	INFO	Listening on port 56933
+1496962652016	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-08 17:57:32.697 plugin-container[6869:8025753] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 17:57:32.698 plugin-container[6869:8025753] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9317, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 17:57:32.698 plugin-container[6869:8025753] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1496962659697	Marionette	INFO	New connections will no longer be accepted
+1496962659882	geckodriver	INFO	Listening on 127.0.0.1:57084
+1496962660125	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1496962665218	Marionette	INFO	Listening on port 57088
+1496962665336	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-08 17:57:46.265 plugin-container[6873:8026349] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 17:57:46.270 plugin-container[6873:8026349] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d17, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 17:57:46.270 plugin-container[6873:8026349] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1496962677856	Marionette	INFO	New connections will no longer be accepted
+1496962701926	geckodriver	INFO	Listening on 127.0.0.1:57260
+1496962702254	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1496962705932	Marionette	INFO	Listening on port 57264
+1496962706048	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-08 17:58:26.978 plugin-container[6889:8027206] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 17:58:26.980 plugin-container[6889:8027206] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f1b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 17:58:26.980 plugin-container[6889:8027206] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1496962713924	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1496962714108	geckodriver	INFO	Listening on 127.0.0.1:57412
+1496962715337	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1496962719532	Marionette	INFO	Listening on port 57419
+1496962719670	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-06-08 17:58:40.610 plugin-container[6893:8027783] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x883f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 17:58:40.611 plugin-container[6893:8027783] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x891b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-08 17:58:40.611 plugin-container[6893:8027783] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1496962733163	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown

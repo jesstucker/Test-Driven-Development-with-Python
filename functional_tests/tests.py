@@ -92,7 +92,7 @@ class newVisitorTest(LiveServerTestCase):
 		time.sleep(1)
 		self.assertNotIn('Buy peacock feathers', page_text)
 		time.sleep(1)
-		self.asserIn('Buy milk', page_text)
+		self.assertIn('Buy milk', page_text)
 		time.sleep(1)
 
 		# Satisfied, tehy both go back to sleep
