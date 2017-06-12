@@ -2,6 +2,7 @@ from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import sys
+import time
 
 class newVisitorTest(StaticLiveServerTestCase):
 	@classmethod
@@ -51,7 +52,7 @@ class newVisitorTest(StaticLiveServerTestCase):
 		# When she hits enter, the page updates, and now the page lists
 		# "1: Buy peacock feathers" as an item in a to-do list
 		inputbox.send_keys(Keys.ENTER)
-		import time
+		
 		time.sleep(1)
 		edith_list_url = self.browser.current_url
 		time.sleep(1)
